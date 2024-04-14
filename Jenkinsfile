@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-              git branch: 'hsnjenkins', url: 'https://github.com/hasnaou/Tanomi-back'
+              git branch: 'jenkins', url: 'https://github.com/hasnaou/Tanomi-back'
             }
         }
 
